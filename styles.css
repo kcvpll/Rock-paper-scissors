@@ -74,7 +74,7 @@ header > h1 {
 }
 .choise:hover{
 	cursor: pointer;
-	background: red;
+	background: grey;
 }
 #action-message{
 	text-align: center;
@@ -82,4 +82,18 @@ header > h1 {
 	font-family: Comfortaa, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
+}
+.green-glow{
+	border: 4px solid green;
+	box-shadow: 0 0 10px green;
+}
+
+.red-glow{
+	border: 4px solid red;
+	box-shadow: 0 0 10px red;
+}
+
+.grey-glow{
+	border: 4px solid grey;
+	box-shadow: 0 0 10px grey;	
 }
